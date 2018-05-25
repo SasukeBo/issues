@@ -6,7 +6,7 @@ defmodule Issues.MixProject do
       app: :issues,
       version: "0.1.0",
       name: "Issues",
-      source_url: "https://github.com/SasukeBo/study/issues",
+      source_url: "https://github.com/SasukeBo/issues",
       extras: ["README.md", "markdown/custom_page.md"],
       elixir: "~> 1.6",
       escript: escript_config(),
