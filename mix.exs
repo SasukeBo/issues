@@ -8,7 +8,7 @@ defmodule Issues.MixProject do
       name: "Issues",
       source_url: "https://github.com/SasukeBo/issues",
       extras: ["README.md", "markdown/custom_page.md"],
-      elixir: "~> 1.6",
+      elixir: ">= 1.6",
       escript: escript_config(),
       start_permanent: Mix.env() == :prod,
       deps: deps()
